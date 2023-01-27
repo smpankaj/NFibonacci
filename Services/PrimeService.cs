@@ -27,7 +27,7 @@ namespace NFibonacci.Services
                     return 1;
 
                 BigInteger prev = 0, cur = 1, temp;
-                for(int i = 3; i <= num; i++)
+                for(BigInteger i = 3; i <= num; i++)
                 {
                     temp = cur + prev;
                     prev = cur;
